@@ -1,0 +1,25 @@
+name: mybook_library
+description: A personal book library management app.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3
+  sqflite: ^2.0.3
+  path_provider: ^2.0.11
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/original.webp
+  uses-material-design: true
+
+
+ 
